@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(107, 127, 243);
+}
+
+.title{
+    margin: 20px 0;
+    font-family: "Protest Riot", sans-serif;
+    font-weight: 400;
+    /* font-style: italic; */
+    color: rgb(221, 28, 76);
+}
+
+.wrapper{
+    width: 700px;
+    margin: 0 auto;
+    text-align: center;
+
+    padding: 0 10px;
+}
+
+.wrapper img{
+    width: 150px;
+}
+
+.button-group{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 40px;
+}
+
+.button-group button{
+    padding: 10px 30px;
+    cursor: pointer;
+    border: none;
+    font-weight: 700;
+    font-size: 2em;
+
+    /* color: #1a1dcf; */
+    color: #fff;
+
+    transition: all .2s ease-in;
+}
+.yes-btn{
+    background-color: rgb(40, 177, 99);
+}
+
+.yes-btn:hover{
+    background-color: rgb(24, 114, 63);
+}
+
+.no-btn{
+    background-color: tomato;
+}
+
+.no-btn:hover{
+    background-color: rgb(180, 54, 32);
+}
